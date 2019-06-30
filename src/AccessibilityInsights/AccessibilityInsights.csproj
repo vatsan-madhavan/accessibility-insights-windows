@@ -5,9 +5,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <AssemblyTitle>Accessibility Insights for Windows</AssemblyTitle>
     <Product>Accessibility Insights for Windows</Product>
-    <NeutralLanguage>en-US</NeutralLanguage>
     <Description>Accessibility Insights for Windows</Description>
-    <Copyright>Copyright ©  2018</Copyright>
     <ExtrasEnableWpfProjectSetup>true</ExtrasEnableWpfProjectSetup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
