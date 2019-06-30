@@ -10,28 +10,28 @@
   </PropertyGroup>
   <Import Project="..\..\build\settings.targets" />
   <ItemGroup>
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.*" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.*" />
-    <PackageReference Include="System.Net.Http" Version="4.*" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="$(SystemDataDataSetExtensionsVersion)" />
+    <PackageReference Include="Microsoft.CSharp" Version="$(MicrosoftCSharpVersion)" />
+    <PackageReference Include="System.Net.Http" Version="$(SystemNetHttpVersion)" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.2">
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="$(MicrosoftCodeAnalysisFxCopAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.CodeAnalysis.VersionCheckAnalyzer" Version="2.9.2" />
-    <PackageReference Include="Microsoft.CodeQuality.Analyzers" Version="2.9.2">
+    <PackageReference Include="Microsoft.CodeAnalysis.VersionCheckAnalyzer" Version="$(MicrosoftCodeAnalysisVersionCheckAnalyzerVersion)" />
+    <PackageReference Include="Microsoft.CodeQuality.Analyzers" Version="$(MicrosoftCodeQualityAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NetCore.Analyzers" Version="2.9.2">
+    <PackageReference Include="Microsoft.NetCore.Analyzers" Version="$(MicrosoftNetCoreAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NetFramework.Analyzers" Version="2.9.2">
+    <PackageReference Include="Microsoft.NetFramework.Analyzers" Version="$(MicrosoftNetFrameworkAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudioEng.MicroBuild.Core" Version="0.4.1">
+    <PackageReference Include="Microsoft.VisualStudioEng.MicroBuild.Core" Version="$(MicrosoftVisualStudioEngMicroBuildCoreVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Text.Analyzers" Version="2.6.4">
+    <PackageReference Include="Text.Analyzers" Version="$(TextAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>

@@ -25,36 +25,36 @@
   </PropertyGroup>
   <Import Project="..\..\build\settings.targets" />
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.*" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.*" />
+    <PackageReference Include="Microsoft.CSharp" Version="$(MicrosoftCSharpVersion)" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="$(SystemDataDataSetExtensionsVersion)" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Axe.Windows" Version="0.2.0-prerelease" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.2">
+    <PackageReference Include="Axe.Windows" Version="$(AxeWindowsVersion)" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="$(MicrosoftCodeAnalysisFxCopAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.CodeAnalysis.VersionCheckAnalyzer" Version="2.9.2" />
-    <PackageReference Include="Microsoft.CodeQuality.Analyzers" Version="2.9.2">
+    <PackageReference Include="Microsoft.CodeAnalysis.VersionCheckAnalyzer" Version="$(MicrosoftCodeAnalysisVersionCheckAnalyzerVersion)" />
+    <PackageReference Include="Microsoft.CodeQuality.Analyzers" Version="$(MicrosoftCodeQualityAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NetCore.Analyzers" Version="2.9.2">
+    <PackageReference Include="Microsoft.NetCore.Analyzers" Version="$(MicrosoftNetCoreAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NetFramework.Analyzers" Version="2.9.2">
+    <PackageReference Include="Microsoft.NetFramework.Analyzers" Version="$(MicrosoftNetFrameworkAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudioEng.MicroBuild.Core" Version="0.4.1">
+    <PackageReference Include="Microsoft.VisualStudioEng.MicroBuild.Core" Version="$(MicrosoftVisualStudioEngMicroBuildCoreVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-    <PackageReference Include="Sarif.Sdk" Version="2.0.0-csd.2.beta.2018-10-10" />
-    <PackageReference Include="System.Collections.Immutable" Version="1.5.0" />
-    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-    <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
-    <PackageReference Include="Text.Analyzers" Version="2.6.4">
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJsonVersion)" />
+    <PackageReference Include="Sarif.Sdk" Version="$(SarifSdkVersion)" />
+    <PackageReference Include="System.Collections.Immutable" Version="$(SystemCollectionsImmutableVersion)" />
+    <PackageReference Include="System.ValueTuple" Version="$(SystemValueTupleVersion)" />
+    <PackageReference Include="System.Windows.Interactivity.WPF" Version="$(SystemWindowsInteractivityWPFVersion)" />
+    <PackageReference Include="Text.Analyzers" Version="$(TextAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="WiX" Version="3.11.1" />
+    <PackageReference Include="WiX" Version="$(WixVersion)" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Deployment" />
