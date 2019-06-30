@@ -1,7 +1,9 @@
 <Project>
+  <Import Project="$(TEMP)\A11yInsightsVersionInfo.props" Condition="Exists('$(TEMP)\A11yInsightsVersionInfo.props')"/>
   <PropertyGroup>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Copyright>Copyright ©  2019</Copyright>
+    <AssemblyVersion Condition="'$(BuildNumber)' != ''">$(BuildNumber)</AssemblyVersion>
   </PropertyGroup>
 
   <!-- 
