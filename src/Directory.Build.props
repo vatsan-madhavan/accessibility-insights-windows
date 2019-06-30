@@ -21,6 +21,7 @@
     <NewtonsoftJsonVersion>10.0.3</NewtonsoftJsonVersion>
     <SarifSdkVersion>2.0.0-csd.2.beta.2018-10-10</SarifSdkVersion>
     <SystemCollectionsImmutableVersion>1.5.0</SystemCollectionsImmutableVersion>
+    <SystemComponentModelCompositionVersion>4.*</SystemComponentModelCompositionVersion>
     <SystemDataDataSetExtensionsVersion>4.*</SystemDataDataSetExtensionsVersion>
     <SystemNetHttpVersion>4.*</SystemNetHttpVersion>
     <SystemValueTupleVersion>4.5.0</SystemValueTupleVersion>
