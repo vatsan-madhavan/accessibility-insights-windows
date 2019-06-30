@@ -1,13 +1,19 @@
 // Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
+#if FAKES_SUPPORTED
 using Axe.Windows.Actions.Fakes;
+#endif
 using Axe.Windows.Core.Enums;
 using AccessibilityInsights.SharedUx.Telemetry;
+#if FAKES_SUPPORTED
 using AccessibilityInsights.SharedUx.Telemetry.Fakes;
+#endif 
 using AccessibilityInsights.Extensions.Interfaces.IssueReporting;
 using AccessibilityInsights.SharedUx.FileIssue;
+#if FAKES_SUPPORTED
 using AccessibilityInsights.SharedUx.FileIssue.Fakes;
 using Microsoft.QualityTools.Testing.Fakes;
+#endif 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
