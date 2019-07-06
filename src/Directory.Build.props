@@ -21,11 +21,14 @@
     <MicrosoftNetFrameworkAnalyzersVersion>2.9.2</MicrosoftNetFrameworkAnalyzersVersion>
     <MicrosoftNETTestSdkVersion>16.0.1</MicrosoftNETTestSdkVersion>
     <MicrosoftVisualStudioEngMicroBuildCoreVersion>0.4.1</MicrosoftVisualStudioEngMicroBuildCoreVersion>
+	<MicrosoftWinAppDriverAppiumWebDriverVersion>1.0.1-Preview</MicrosoftWinAppDriverAppiumWebDriverVersion>
     <MoqVersion>4.10.1</MoqVersion>
     <MSTestTestAdapterVersion>1.4.0</MSTestTestAdapterVersion>
     <MSTestTestFrameworkVersion>1.4.0</MSTestTestFrameworkVersion>
     <NewtonsoftJsonVersion>10.0.3</NewtonsoftJsonVersion>
     <SarifSdkVersion>2.0.0-csd.2.beta.2018-10-10</SarifSdkVersion>
+	<SeleniumSupportVersion>3.8.0</SeleniumSupportVersion>
+	<SeleniumWebDriverVersion>3.8.0</SeleniumWebDriverVersion>
     <SystemCollectionsImmutableVersion>1.5.0</SystemCollectionsImmutableVersion>
     <SystemComponentModelCompositionVersion>4.*</SystemComponentModelCompositionVersion>
     <SystemDataDataSetExtensionsVersion>4.*</SystemDataDataSetExtensionsVersion>
