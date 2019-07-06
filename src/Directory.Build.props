@@ -12,6 +12,7 @@
   <PropertyGroup>
     <AxeWindowsVersion>0.2.0-prerelease</AxeWindowsVersion>
     <CastleCoreVersion>4.3.1</CastleCoreVersion>
+	<CommandLineParserVersion>2.5.0</CommandLineParserVersion>
     <MicrosoftCSharpVersion>4.*</MicrosoftCSharpVersion>
     <MicrosoftCodeAnalysisFxCopAnalyzersVersion>2.9.2</MicrosoftCodeAnalysisFxCopAnalyzersVersion>
     <MicrosoftCodeAnalysisVersionCheckAnalyzerVersion>2.9.2</MicrosoftCodeAnalysisVersionCheckAnalyzerVersion>

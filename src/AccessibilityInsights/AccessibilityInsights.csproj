@@ -30,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Axe.Windows" Version="$(AxeWindowsVersion)" />
+    <PackageReference Include="CommandLineParser" Version="$(CommandLineParserVersion)" />
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="$(MicrosoftCodeAnalysisFxCopAnalyzersVersion)">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -106,6 +107,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\links-review.json" />
+    <ContentWithTargetPath Include="Resources\links.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <TargetPath>links.json</TargetPath>
+    </ContentWithTargetPath>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AccessibilityInsights.CommonUxComponents\CommonUxComponents.csproj" />
